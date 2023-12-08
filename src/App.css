@@ -1,1 +1,45 @@
+.App {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+}
 
+.section-title {
+    color: #3F3939;
+    font-family: Megrim;
+    font-size: 48px;
+    font-weight: 500;
+
+}
+
+.front-bg {
+    background-image: linear-gradient(to right,
+            rgba(191, 172, 172, 0.644),
+            rgba(191, 172, 172, 0.644)),
+        url("./assets/img/119A8388.jpg");
+    background-repeat: no-repeat;
+    background-position: right 100% top 20%;
+
+    &:hover {
+        background-image:
+            url("./assets/img/119A8388.jpg");
+    }
+}
+
+.acting-bg {
+    background-image: linear-gradient(to right,
+            rgba(191, 172, 172, 0.644),
+            rgba(191, 172, 172, 0.644)),
+        url("./assets/img/119A8583.jpg");
+    background-repeat: no-repeat;
+    background-size: 105%;
+    background-position: left 100% top 25%;
+
+    &:hover {
+        background-image:
+            url("./assets/img/119A8583.jpg");
+    }
+}
