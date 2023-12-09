@@ -9,16 +9,15 @@ const FooterStyled = styled.footer`
     border-radius: 5px;
     outline: none;
     border: none;
-    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
     color: #3f3939;
     font-family: Megrim;
     font-size: 21px;
     font-weight: 600;
     letter-spacing: 5.76px;
-    transform: translateX(0px);
-    animation: float 2s ease-in-out infinite;
     cursor: pointer;
     &:hover {
+      transform: translateX(0px);
+      animation: float 5s ease-in-out infinite;
       color: #bfacac;
       background: #3f3939;
     }

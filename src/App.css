@@ -21,6 +21,7 @@
             rgba(191, 172, 172, 0.644)),
         url("./assets/img/119A8388.jpg");
     background-repeat: no-repeat;
+    background-size: 105%;
     background-position: right 100% top 20%;
 
     &:hover {
@@ -41,5 +42,22 @@
     &:hover {
         background-image:
             url("./assets/img/119A8583.jpg");
+    }
+}
+
+@keyframes float {
+    0% {
+        box-shadow: 2px 5px 15px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(2%);
+    }
+
+    50% {
+        box-shadow: 25px 25px 15px 0px rgba(0, 0, 0, 0.2);
+        transform: translateX(-5%);
+    }
+
+    100% {
+        box-shadow: 2px 5px 15px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(2%);
     }
 }

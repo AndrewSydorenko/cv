@@ -8,6 +8,6 @@ const ActingStyled = styled.section`
   height: 300px;
   padding: 27px 50px;
   transform: translateX(0px);
-  animation: float 15s ease-in-out infinite;
+  animation: float 11s ease-in-out infinite;
 `;
 export default ActingStyled;

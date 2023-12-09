@@ -5,6 +5,6 @@ const FrontStyled = styled.section`
   height: 300px;
   transform: translateX(0px);
   padding: 27px 50px;
-  animation: float 10s ease-in-out infinite;
+  animation: float 9s ease-in-out infinite;
 `;
 export default FrontStyled;
