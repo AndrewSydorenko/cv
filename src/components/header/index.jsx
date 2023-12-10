@@ -12,13 +12,15 @@ const Header = () => {
       <a href="/">
         <img className="home-btn" src={home} alt="home" />
       </a>
-      <h1 className="header-title">Andrew Sydorenko</h1>
+      <h1 className="header-title">
+        Andrew Sydorenko <span className="nik">(samndorf)</span>
+      </h1>
       <div className="social-wrapper">
         <ul className="social-list">
           <li className="social-list__item">
             <a
               className="social-link"
-              href="https://www.instagram.com/semendorf"
+              href="https://www.instagram.com/samndorf"
               aria-label="Instgram"
               target="_blank"
               rel="noopener noreferrer"
@@ -29,7 +31,7 @@ const Header = () => {
           <li className="social-list__item">
             <a
               className="social-link"
-              href="https://www.youtube.com/@semendorf"
+              href="https://www.youtube.com/@samndorf"
               aria-label="telegram"
               target="_blank"
               rel="noopener noreferrer"
@@ -40,8 +42,8 @@ const Header = () => {
           <li className="social-list__item">
             <a
               className="social-link"
-              href="facebook.com/semendorf"
-              aria-label="linkedin"
+              href="https://www.facebook.com/samndorf"
+              aria-label="facebook"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -51,7 +53,7 @@ const Header = () => {
           <li className="social-list__item">
             <a
               className="social-link"
-              href="https://t.me/Semendorf"
+              href="https://t.me/Samndorf"
               aria-label="youtube"
               target="_blank"
               rel="noopener noreferrer"
@@ -63,7 +65,7 @@ const Header = () => {
             <a
               className="social-link"
               href="https://www.linkedin.com/in/andrijsydorenko"
-              aria-label="facebook"
+              aria-label="linkedin"
               target="_blank"
               rel="noopener noreferrer"
             >

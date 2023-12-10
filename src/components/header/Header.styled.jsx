@@ -12,11 +12,18 @@ const HeaderStyled = styled.header`
     gap: 5px;
   }
   .header-title {
+    position: relative;
     color: #3f3939;
     font-family: Megrim;
     font-size: 48px;
     font-weight: 500;
     letter-spacing: 5.76px;
+  }
+  .nik {
+    position: absolute;
+    right: 4px;
+    top: -10px;
+    font-size: 21px;
   }
   .social-img {
     &:hover {
