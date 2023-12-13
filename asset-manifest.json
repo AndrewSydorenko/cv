@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.1c232429.css",
-    "main.js": "/portfolio/static/js/main.10ecc687.js",
+    "main.js": "/portfolio/static/js/main.d4979f24.js",
     "static/media/IMG_0584.jpg": "/portfolio/static/media/IMG_0584.bee4ad5129f07ec56685.jpg",
     "static/media/IMG_0447.jpg": "/portfolio/static/media/IMG_0447.ee6e0ea09c5def33cc88.jpg",
     "static/media/IMG_0542.jpg": "/portfolio/static/media/IMG_0542.64dce04ee1f231ec6a95.jpg",
@@ -9,8 +9,8 @@
     "static/media/IMG_0323.jpg": "/portfolio/static/media/IMG_0323.edde73f51429422170d1.jpg",
     "static/media/image125.jpg": "/portfolio/static/media/image125.b9caffd3e271625491c3.jpg",
     "static/media/16819353_.jpg": "/portfolio/static/media/16819353_.ce2493d7df2bd918bc7b.jpg",
-    "static/media/119A8388.jpg": "/portfolio/static/media/119A8388.5edb38b0f18cc05078dd.jpg",
-    "static/media/119A8583.jpg": "/portfolio/static/media/119A8583.f515c1c7df3a3f87d9c8.jpg",
+    "static/media/119A8388.jpg": "/portfolio/static/media/119A8388.2a0d1d2ea88ba4272c16.jpg",
+    "static/media/119A8583.jpg": "/portfolio/static/media/119A8583.1dc8824e0ec43130eedb.jpg",
     "static/media/soyummy.jpg": "/portfolio/static/media/soyummy.59e75ea09d23dd088c49.jpg",
     "static/media/coctails.jpg": "/portfolio/static/media/coctails.726e151e503370028392.jpg",
     "static/media/flowers.jpg": "/portfolio/static/media/flowers.d2d57d715a5861752f2b.jpg",
@@ -24,10 +24,10 @@
     "index.html": "/portfolio/index.html",
     "static/media/telegram.svg": "/portfolio/static/media/telegram.d4971f8ea45b0ca82fc86291a8537ba0.svg",
     "main.1c232429.css.map": "/portfolio/static/css/main.1c232429.css.map",
-    "main.10ecc687.js.map": "/portfolio/static/js/main.10ecc687.js.map"
+    "main.d4979f24.js.map": "/portfolio/static/js/main.d4979f24.js.map"
   },
   "entrypoints": [
     "static/css/main.1c232429.css",
-    "static/js/main.10ecc687.js"
+    "static/js/main.d4979f24.js"
   ]
 }
