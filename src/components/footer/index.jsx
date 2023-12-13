@@ -10,7 +10,6 @@ import wats from "../../assets/icons/whatsapp.svg";
 export const Footer = () => {
   return (
     <FooterStyled>
-      <h3 className="contact-me">Rivne. Ukraine</h3>
       <SocialWrapper>
         <ul className="social-list">
           <li className="social-list__item">
@@ -92,6 +91,7 @@ export const Footer = () => {
           </li>
         </ul>
       </SocialWrapper>
+      <h3 className="contact-me">Rivne. Ukraine</h3>
     </FooterStyled>
   );
 };

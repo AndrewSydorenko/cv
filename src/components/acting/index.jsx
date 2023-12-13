@@ -6,6 +6,7 @@ import {
   GallImg,
   ImgWrapper,
   VidWrap,
+  Player,
 } from "./Acting.styled";
 import { useState } from "react";
 import img from "../../assets/img/119A8583.jpg";
@@ -34,21 +35,18 @@ const Acting = () => {
           <ActText>
             Актор театру та кіно. Також маю модельний досвід і досвід ведучого.
           </ActText>
-          <VidWrap layout>
-            <iframe
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 1 }}
+          <VidWrap>
+            <Player
               width="560"
               height="315"
               src="https://www.youtube.com/embed/QyOkAzpz_vI?si=Si692RiTY8wE4UC8"
               title="YouTube video player"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
+              allowFullScreen
+            ></Player>
           </VidWrap>
-          <ImgWrapper layout>
+          <ImgWrapper>
             <GallImg src={img1} alt="sam" />
             <GallImg src={img2} alt="sam" />
             <GallImg src={img5} alt="sam" />

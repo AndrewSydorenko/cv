@@ -27,7 +27,7 @@ const FrontEnd = () => {
       transition={{ layout: { duration: 1, type: "spring" } }}
     >
       <Title layout="position">Front End</Title>
-      <FrontImg layout="position" src={img} alt="sam" onClick={toggleOpen} />
+      <FrontImg layout src={img} alt="sam" onClick={toggleOpen} />
       {isOpen && (
         <ContentBox
           initial={{ opacity: 0 }}
@@ -36,7 +36,7 @@ const FrontEnd = () => {
         >
           <div>
             <nav>
-              <LeftSideNav>
+              <LeftSideNav layout="position">
                 <li
                   className="nav-list-item"
                   onClick={() => {

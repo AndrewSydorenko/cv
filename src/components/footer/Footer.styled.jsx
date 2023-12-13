@@ -4,7 +4,9 @@ import { colors } from "../const";
 const FooterStyled = styled.footer`
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 8px 25px;
+  flex-direction: column;
   .contact-me {
     padding: 10px 15px;
     background: ${colors.mainLight};

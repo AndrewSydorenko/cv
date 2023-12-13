@@ -1,29 +1,49 @@
 import styled from "@emotion/styled";
-import { colors } from "../const";
+import { colors, mediaSizes } from "../const";
 import { motion } from "framer-motion";
 
 export const ActingStyled = styled(motion.section)`
   align-self: center;
   position: relative;
   border-radius: 10px;
-  min-height: 300px;
-  width: 1100px;
-  padding: 27px 50px;
+  height: auto;
+  width: 350px;
   opacity: 0.5;
   box-shadow: 2px 5px 15px 0px rgba(0, 0, 0, 0.6);
   overflow: hidden;
-
   &:hover,
   :active {
     opacity: 1;
   }
+  @media screen and (min-width: ${mediaSizes.tablet}) {
+    width: 550px;
+    min-height: 200px;
+  }
+  @media screen and (min-width: ${mediaSizes.laptop}) {
+    width: 1000px;
+    min-height: 300px;
+  }
+
+  @media screen and (min-width: ${mediaSizes.desktop}) {
+    width: 1200px;
+  }
 `;
 
 export const ActImg = styled(motion.img)`
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: 1;
+  display: flex;
+  object-fit: cover;
+  height: auto;
+  width: 350px;
+  box-shadow: 2px 5px 15px 0px rgba(0, 0, 0, 0.6);
+  @media screen and (min-width: ${mediaSizes.tablet}) {
+    width: 680px;
+  }
+  @media screen and (min-width: ${mediaSizes.laptop}) {
+    width: 1000px;
+  }
+  @media screen and (min-width: ${mediaSizes.desktop}) {
+    width: 1200px;
+  }
 `;
 export const GallImg = styled(motion.img)`
   display: flex;
@@ -33,20 +53,47 @@ export const GallImg = styled(motion.img)`
 export const ImgWrapper = styled(motion.div)`
   margin-top: 50px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6);
   grid-column-gap: 20px;
   grid-row-gap: 20px;
+  justify-items: center;
+  padding-bottom: 30px;
+  @media screen and (min-width: ${mediaSizes.tablet}) {
+  }
+  @media screen and (min-width: ${mediaSizes.laptop}) {
+    justify-content: center;
+    grid-template-columns: repeat(2, min-content);
+    grid-template-rows: repeat(3, min-content);
+  }
+  @media screen and (min-width: ${mediaSizes.desktop}) {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
 `;
 
 export const Title = styled(motion.h2)`
   color: ${colors.mainDark};
   font-family: Megrim;
-  font-size: 48px;
+  font-size: 32px;
   font-weight: 500;
   position: absolute;
-  right: 50px;
+  right: 10px;
+  top: 60px;
   z-index: 2;
+  @media screen and (min-width: ${mediaSizes.tablet}) {
+    font-size: 48px;
+    top: 130px;
+    right: 20px;
+  }
+  @media screen and (min-width: ${mediaSizes.laptop}) {
+    top: 220px;
+    right: 30px;
+  }
+  @media screen and (min-width: ${mediaSizes.desktop}) {
+    top: 280px;
+    right: 40px;
+  }
 `;
 
 export const ActText = styled(motion.p)`
@@ -54,11 +101,17 @@ export const ActText = styled(motion.p)`
   justify-content: center;
   font-family: Montserrat;
   font-weight: 400;
-  padding: 35% 0 20px;
+  padding: 2% 5%;
+  margin-top: 30px;
+  margin-bottom: 30px;
   color: ${colors.mainDark};
   z-index: 10;
 `;
 export const VidWrap = styled(motion.p)`
   display: flex;
   justify-content: center;
+`;
+export const Player = styled(motion.iframe)`
+  display: flex;
+  border-radius: 8px;
 `;
