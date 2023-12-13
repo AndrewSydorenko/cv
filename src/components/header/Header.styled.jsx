@@ -1,19 +1,20 @@
 import styled from "@emotion/styled";
+import { colors } from "../const";
 
-const HeaderStyled = styled.header`
+export const HeaderStyled = styled.header`
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   border-radius: 10px;
-  background: #bfacac;
+  background: ${colors.mainLight};
   padding: 8px 25px;
   .social-list {
     display: flex;
-    gap: 5px;
+    gap: 10px;
   }
   .header-title {
     position: relative;
-    color: #3f3939;
+    color: ${colors.mainDark};
     font-family: Megrim;
     font-size: 48px;
     font-weight: 500;
@@ -26,9 +27,16 @@ const HeaderStyled = styled.header`
     font-size: 21px;
   }
   .social-img {
+    display: flex;
+    opacity: 0.5;
     &:hover {
       transform: scale(1.2);
+      opacity: 0.8;
     }
   }
 `;
-export default HeaderStyled;
+
+export const SocialWrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+`;

@@ -1,25 +1,38 @@
 import styled from "@emotion/styled";
+import { colors } from "../const";
 
 const FooterStyled = styled.footer`
   display: flex;
   justify-content: center;
+  padding: 8px 25px;
   .contact-me {
     padding: 10px 15px;
-    background: #bfacac;
+    background: ${colors.mainLight};
     border-radius: 5px;
     outline: none;
     border: none;
-    color: #3f3939;
+    color: ${colors.mainDark};
     font-family: Megrim;
     font-size: 21px;
     font-weight: 600;
     letter-spacing: 5.76px;
-    cursor: pointer;
     &:hover {
       transform: translateX(0px);
       animation: float 5s ease-in-out infinite;
-      color: #bfacac;
-      background: #3f3939;
+      color: ${colors.mainLight};
+      background: ${colors.mainDark};
+    }
+  }
+  .social-list {
+    display: flex;
+    gap: 10px;
+  }
+  .social-img {
+    display: flex;
+    opacity: 0.5;
+    &:hover {
+      transform: scale(1.2);
+      opacity: 0.8;
     }
   }
 `;

@@ -4,7 +4,7 @@ import MainStyled from "./Main.styled";
 
 const Main = () => {
   return (
-    <MainStyled>
+    <MainStyled layout>
       <FrontEnd />
       <Acting />
     </MainStyled>

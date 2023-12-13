@@ -1,3 +1,5 @@
+@import-normalize;
+
 body {
   margin: 0;
   font-family: Megrim, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -9,10 +11,6 @@ body {
   /* background: linear-gradient(346deg, rgba(31, 26, 26, 1) 20%, rgba(191, 172, 172, 1) 58%); */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 
 h1,
 h2,
@@ -25,4 +23,9 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }

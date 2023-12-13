@@ -1,6 +1,7 @@
 import styled from "@emotion/styled";
+import { motion } from "framer-motion";
 
-const MainStyled = styled.main`
+const MainStyled = styled(motion.main)`
   display: flex;
   flex-direction: column;
   gap: 30px;
