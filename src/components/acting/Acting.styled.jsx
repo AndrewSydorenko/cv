@@ -74,15 +74,15 @@ export const ImgWrapper = styled(motion.div)`
 
 export const Title = styled(motion.h2)`
   color: ${colors.mainDark};
-  font-family: Megrim;
-  font-size: 32px;
-  font-weight: 500;
+  font-family: Montserrat;
+  font-size: 26px;
+  font-weight: 200;
   position: absolute;
   right: 10px;
   top: 60px;
   z-index: 2;
   @media screen and (min-width: ${mediaSizes.tablet}) {
-    font-size: 48px;
+    font-size: 36px;
     top: 130px;
     right: 20px;
   }

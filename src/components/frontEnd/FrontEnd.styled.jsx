@@ -16,9 +16,6 @@ export const FrontStyled = styled(motion.section)`
   :active {
     opacity: 1;
   }
-  & .nav-list-item {
-    cursor: pointer;
-  }
   @media screen and (min-width: ${mediaSizes.tablet}) {
     width: 550px;
     min-height: 200px;
@@ -50,15 +47,15 @@ export const FrontImg = styled(motion.img)`
 `;
 export const Title = styled(motion.h2)`
   color: ${colors.mainDark};
-  font-family: Megrim;
-  font-size: 32px;
-  font-weight: 500;
+  font-family: Montserrat;
+  font-size: 26px;
+  font-weight: 200;
   position: absolute;
   top: 5px;
   left: 10px;
   z-index: 2;
   @media screen and (min-width: ${mediaSizes.tablet}) {
-    font-size: 48px;
+    font-size: 36px;
     top: 27px;
     left: 3%;
   }
@@ -88,8 +85,11 @@ export const LeftSideNav = styled(motion.ul)`
   gap: 20px;
   font-weight: 600;
   & li {
+    font-family: Montserrat;
+    font-weight: 500;
     width: fit-content;
     position: relative;
+    cursor: pointer;
     &:hover,
     &:active,
     &:focus {
@@ -184,9 +184,9 @@ export const CvBox = styled(motion.div)`
     outline: none;
     border: none;
     color: ${colors.mainDark};
-    font-family: Megrim;
+    font-family: Montserrat;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
     letter-spacing: 5.76px;
     cursor: pointer;
     &:hover {

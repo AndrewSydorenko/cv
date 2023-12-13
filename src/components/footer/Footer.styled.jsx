@@ -14,9 +14,9 @@ const FooterStyled = styled.footer`
     outline: none;
     border: none;
     color: ${colors.mainDark};
-    font-family: Megrim;
+    font-family: Montserrat;
     font-size: 21px;
-    font-weight: 600;
+    font-weight: 400;
     letter-spacing: 5.76px;
     &:hover {
       transform: translateX(0px);

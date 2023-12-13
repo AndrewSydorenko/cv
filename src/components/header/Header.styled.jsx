@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import { colors } from "../const";
+import { colors, mediaSizes } from "../const";
 
 export const HeaderStyled = styled.header`
   display: flex;
@@ -15,16 +15,21 @@ export const HeaderStyled = styled.header`
   .header-title {
     position: relative;
     color: ${colors.mainDark};
-    font-family: Megrim;
-    font-size: 48px;
-    font-weight: 500;
-    letter-spacing: 5.76px;
+    font-family: Montserrat Subrayada;
+    font-size: 22px;
+    font-weight: 400;
+    @media screen and (min-width: ${mediaSizes.tablet}) {
+      font-size: 48px;
+    }
   }
   .nik {
     position: absolute;
     right: 4px;
     top: -10px;
-    font-size: 21px;
+    font-size: 16px;
+    @media screen and (min-width: ${mediaSizes.tablet}) {
+      font-size: 21px;
+    }
   }
   .social-img {
     display: flex;
