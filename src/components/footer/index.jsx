@@ -6,23 +6,11 @@ import link from "../../assets/icons/linkedin.svg";
 import you from "../../assets/icons/youtube.svg";
 import face from "../../assets/icons/facebook.svg";
 import git from "../../assets/icons/github.svg";
-import wats from "../../assets/icons/whatsapp.svg";
 export const Footer = () => {
   return (
     <FooterStyled>
       <SocialWrapper>
         <ul className="social-list">
-          <li className="social-list__item">
-            <a
-              className="social-link"
-              href="https://api.whatsapp.com/qr/LBJAYRRMG3D2N1?autoload=1&app_absent=0"
-              aria-label="Watsapp"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img className="social-img" src={wats} alt="watsapp" />
-            </a>
-          </li>
           <li className="social-list__item">
             <a
               className="social-link"

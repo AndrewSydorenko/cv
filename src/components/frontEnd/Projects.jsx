@@ -9,7 +9,16 @@ export const Projects = () => {
   return (
     <ProjBox id="projects">
       <ProjItem>
-        <img src={yum} alt="prewiev" />
+        <a
+          className="social-link"
+          href="https://anastasiiahm.github.io/soyummy-project/"
+          aria-label="so yummy"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={yum} alt="prewiev" />
+        </a>
+
         <ul>
           <li>
             <h3>SoYummy</h3>
@@ -21,7 +30,15 @@ export const Projects = () => {
         </ul>
       </ProjItem>
       <ProjItem>
-        <img src={slim} alt="prewiev" />
+        <a
+          className="social-link"
+          href="https://ibardych.github.io/slimmome-react-app/"
+          aria-label="slim mom"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={slim} alt="prewiev" />
+        </a>
         <ul>
           <li>
             <h3>SlimMom</h3>
@@ -33,7 +50,15 @@ export const Projects = () => {
         </ul>
       </ProjItem>
       <ProjItem>
-        <img src={coc} alt="prewiev" />
+        <a
+          className="social-link"
+          href="https://polaolka.github.io/EasyTeam-JS-Project/"
+          aria-label="coctails"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={coc} alt="prewiev" />
+        </a>
         <ul>
           <li>
             <h3>Cocktails</h3>
@@ -45,7 +70,15 @@ export const Projects = () => {
         </ul>
       </ProjItem>
       <ProjItem>
-        <img src={flow} alt="prewiev" />
+        <a
+          className="social-link"
+          href="https://klapijcukdima.github.io/project-SpaceY/"
+          aria-label="flower shop"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={flow} alt="prewiev" />
+        </a>
         <ul>
           <li>
             <h3>Flower Studio</h3>

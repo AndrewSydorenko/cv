@@ -64,8 +64,8 @@ export const Title = styled(motion.h2)`
 export const ContentBox = styled(motion.div)`
   display: flex;
   flex-direction: column;
-  gap: 50px;
-  padding: 2% 5%;
+  gap: 30px;
+  padding: 5% 5%;
   @media screen and (min-width: ${mediaSizes.tablet}) {
     flex-direction: row;
     gap: 150px;
@@ -84,6 +84,13 @@ export const LeftSideNav = styled(motion.ul)`
   flex-direction: column;
   gap: 20px;
   font-weight: 600;
+  &::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    border-bottom: 1px solid ${colors.mainDark};
+  }
   & li {
     font-family: Montserrat;
     font-weight: 500;
@@ -115,7 +122,7 @@ export const LeftSideNav = styled(motion.ul)`
           width: 150%;
         }
         75% {
-          width: 200%;
+          width: 110%;
         }
         100% {
           width: 100%;
@@ -123,12 +130,21 @@ export const LeftSideNav = styled(motion.ul)`
       }
     }
   }
+  @media screen and (min-width: ${mediaSizes.tablet}) {
+    &::after {
+      display: none;
+    }
+  }
 `;
 
 export const AboutText = styled(motion.p)`
   font-family: Montserrat;
   font-weight: 400;
+  letter-spacing: 0.5px;
   color: ${colors.mainDark};
+  @media screen and (min-width: ${mediaSizes.laptop}) {
+    padding-top: 20px;
+  }
 `;
 export const ContactsList = styled(motion.ul)`
   font-family: Montserrat;
@@ -137,6 +153,27 @@ export const ContactsList = styled(motion.ul)`
   display: flex;
   flex-direction: column;
   gap: 10px;
+  & li {
+    width: fit-content;
+  }
+  & .contacts-link {
+    display: flex;
+    cursor: pointer;
+    position: relative;
+    &:hover {
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-bottom: 1px solid ${colors.mainDark};
+        z-index: -1;
+        animation: animate 500ms linear;
+      }
+    }
+  }
 `;
 
 export const ProjBox = styled(motion.div)`
@@ -159,7 +196,7 @@ export const ProjItem = styled(motion.div)`
     border-radius: 8px;
     box-shadow: 4px 4px 15px 0px ${colors.mainDark};
     &:hover {
-      animation: float 5s ease-in-out infinite;
+      animation: float 2s ease-in-out infinite;
     }
   }
   & ul {
@@ -191,7 +228,7 @@ export const CvBox = styled(motion.div)`
     cursor: pointer;
     &:hover {
       transform: translateX(0px);
-      animation: float 5s ease-in-out infinite;
+      animation: float 2s ease-in-out infinite;
       color: ${colors.mainLight};
       background: ${colors.mainDark};
     }

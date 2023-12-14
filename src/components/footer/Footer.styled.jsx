@@ -9,21 +9,12 @@ const FooterStyled = styled.footer`
   flex-direction: column;
   .contact-me {
     padding: 10px 15px;
-    background: ${colors.mainLight};
     border-radius: 5px;
-    outline: none;
-    border: none;
     color: ${colors.mainDark};
     font-family: Montserrat;
     font-size: 21px;
     font-weight: 400;
-    letter-spacing: 5.76px;
-    &:hover {
-      transform: translateX(0px);
-      animation: float 5s ease-in-out infinite;
-      color: ${colors.mainLight};
-      background: ${colors.mainDark};
-    }
+    letter-spacing: 4px;
   }
   .social-list {
     display: flex;
@@ -35,6 +26,7 @@ const FooterStyled = styled.footer`
     &:hover {
       transform: scale(1.2);
       opacity: 0.8;
+      animation: float 2s ease-in-out infinite;
     }
   }
 `;
