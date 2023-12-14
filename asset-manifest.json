@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1c232429.css",
-    "main.js": "/portfolio/static/js/main.d4979f24.js",
+    "main.css": "/portfolio/static/css/main.24d6ab35.css",
+    "main.js": "/portfolio/static/js/main.80cfcd11.js",
     "static/media/IMG_0584.jpg": "/portfolio/static/media/IMG_0584.bee4ad5129f07ec56685.jpg",
     "static/media/IMG_0447.jpg": "/portfolio/static/media/IMG_0447.ee6e0ea09c5def33cc88.jpg",
     "static/media/IMG_0542.jpg": "/portfolio/static/media/IMG_0542.64dce04ee1f231ec6a95.jpg",
@@ -15,7 +15,6 @@
     "static/media/coctails.jpg": "/portfolio/static/media/coctails.726e151e503370028392.jpg",
     "static/media/flowers.jpg": "/portfolio/static/media/flowers.d2d57d715a5861752f2b.jpg",
     "static/media/slimmom.jpg": "/portfolio/static/media/slimmom.c524346bd5ad61242749.jpg",
-    "static/media/whatsapp.svg": "/portfolio/static/media/whatsapp.c486cbd2c717eaa440891f4f31e57887.svg",
     "static/media/instagram.svg": "/portfolio/static/media/instagram.b93b7ae7a06bfddf26879c5b526c5c91.svg",
     "static/media/github.svg": "/portfolio/static/media/github.116b9ec3c5053415525c9eb74abb565f.svg",
     "static/media/youtube.svg": "/portfolio/static/media/youtube.0eb07a44fecc3409cad49d8da6b0d735.svg",
@@ -23,11 +22,11 @@
     "static/media/facebook.svg": "/portfolio/static/media/facebook.26c9479e2c126cd95104c1227d68e364.svg",
     "index.html": "/portfolio/index.html",
     "static/media/telegram.svg": "/portfolio/static/media/telegram.d4971f8ea45b0ca82fc86291a8537ba0.svg",
-    "main.1c232429.css.map": "/portfolio/static/css/main.1c232429.css.map",
-    "main.d4979f24.js.map": "/portfolio/static/js/main.d4979f24.js.map"
+    "main.24d6ab35.css.map": "/portfolio/static/css/main.24d6ab35.css.map",
+    "main.80cfcd11.js.map": "/portfolio/static/js/main.80cfcd11.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c232429.css",
-    "static/js/main.d4979f24.js"
+    "static/css/main.24d6ab35.css",
+    "static/js/main.80cfcd11.js"
   ]
 }
